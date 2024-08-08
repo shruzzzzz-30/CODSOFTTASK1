@@ -1,0 +1,109 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #9d825c; 
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background: linear-gradient(to right, #6F4F28, #9E7D5F); 
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    letter-spacing: 1.5px; 
+    font-weight: 700; 
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.2em; 
+}
+
+
+button {
+    background-color: #fff;
+    border: 2px solid #6F4F28; 
+    color: #6F4F28;
+    padding: 14px 28px;
+    font-size: 18px; 
+    cursor: pointer;
+    border-radius: 12px; 
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #d1bda8; /* Light coffee color */
+    transform: translateY(-3px); /* Lift effect */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+/* Specialties Section */
+#specialties {
+    padding: 60px 20px; /* Increased padding */
+    background-color: #ffffff; /* Clean background */
+    border-top: 1px solid #ddd; /* Light top border */
+    border-bottom: 1px solid #ddd; /* Light bottom border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#specialties h2 {
+    text-align: center;
+    margin-bottom: 40px; /* Increased margin */
+    font-size: 2.5em; /* Larger heading */
+    color: #6F4F28; /* Matching header color */
+    font-weight: 600; /* Semi-bold font */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+/* Specialty Items */
+.specialty {
+    text-align: center;
+    margin-bottom: 40px; /* Increased margin */
+}
+
+.specialty img {
+    width: 100%;
+    max-width: 400px; /* Slightly larger max width */
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.specialty img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.specialty h3 {
+    margin: 15px 0;
+    font-size: 1.5em; /* Increased font size */
+    color: #333; /* Matching text color */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 20px; /* Increased padding */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 1em; /* Font size adjustment */
+}
